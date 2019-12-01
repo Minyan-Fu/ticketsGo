@@ -1,0 +1,107 @@
+#nav {
+	background-color: #8785A2;
+	padding: 25px;
+	margin: auto;
+}
+
+#header {
+	background-color: #FFC7C7;
+	height: auto;
+	width: device-width;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	font-family: Sans-serif;
+	font-size: 120px;
+	margin: auto;
+}
+
+#intro {
+	background-color: #FFE2E2;
+	height: auto;
+	width: device-width;
+	color: #8785A2;
+	padding: 5px;
+	text-align: center;
+	margin: auto;
+}
+
+#data {
+	background-color: #F6F6F6;
+	height: auto;
+	width: device-width;
+	padding: 5px;
+	margin: auto;
+	align: center;
+}
+
+#footer {
+	background-color: #8785A2;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin: auto;
+}
+
+.ticket {
+	margin: 10% 5% 10% 5%;
+	background-color: #537EC5;
+}
+
+#firstline {
+	padding: 1vw 0vw 0vw 1vw;
+	font-size: 2vw;
+	width: 100%;
+}
+
+#passager {
+	padding: 2vw 0vw 0vw 4vw;
+	font-size: 6vw;
+}
+
+#DtT {
+	padding: 2vw 30% 0vw 28%;
+	font-size: 4vw;
+	width: auto;
+}
+
+#dates {
+	margin: 0 0 2vw 3vw;
+}
+
+#depDate {
+	font-size: 2vw;
+	text-align: center;
+	valign: top;
+}
+
+#bacDate {
+	font-size: 2vw;
+	text-align: center;
+	valign: top;
+}
+
+#picture {
+	position: relative;
+	margin: 0 0 2vw 3vw;
+	height: 15vw;
+	width: 20vw;
+}
+
+#intr {
+	float: right;
+	margin: 5vw 2vw 2vw 0;
+}
+
+#intrtext {
+	float: left;
+	font-size: 2vw;
+	width: 20vw;
+	margin: 5vw 2vw 2vw 0;
+}
+
+#qrcode {
+	width: 10vw;
+	display: block;
+	float: right;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test page</title>
+<link rel="stylesheet" type="text/css" href="terminal.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="result.js" type="text/javascript"></script>
+</head>
+
+<body id="body">
+	<div id="nav"></div>
+
+	<div id="header">
+		Tickets Go!!!<br>
+	</div>
+
+	<div id="intro">
+		<h2>Fill in the following questions to get hints!</h2>
+	</div>
+
+	<div id="data">
+		<h3>
+			<form style="text-align: center" target="test">
+				<br />
+				<ol style="margin: auto; text-align: left">
+					<li>Would you like to travel in Summer or in Winter?<br /> <input
+						type="radio" name="season" value="Summer" checked>Summer <input
+						type="radio" name="season" value="Winter">Winter
+					</li>
+					<br />
+					<li>Which flavour do you prefer?<br /> <input type="radio"
+						name="flavour" value="spicy" checked>spicy <input
+						type="radio" name="flavour" value="sweet">sweet <input
+						type="radio" name="flavour" value="seafood">seafood <input
+						type="radio" name="flavour" value="special">special
+					</li>
+					<br />
+					<li>Would you like modern or historical city better?<br /> <input
+						type="radio" name="MoH" value="Modern" checked>Modern <input
+						type="radio" name="MoH" value="History">Historical
+					</li>
+					<br />
+					<li>Would you like Humanities or Scenery better?<br /> <input
+						type="radio" name="HoS" value="Humanity" checked>Humanities
+						<input type="radio" name="HoS" value="Scene">Scenery
+					</li>
+					<br />
+					<li>Would you to learn something or just relax when
+						travelling?<br /> <input type="radio" name="LoR" value="learn"
+						checked>learn <input type="radio" name="LoR" value="relax">relax
+					</li>
+				</ol>
+				<br>
+				<div style="text-align: center">
+					<input id="submit" type="submit" onclick="result();" value="Submit">
+				</div>
+				<br />
+			</form>
+			<iframe name="test" style="display: none"></iframe>
+			<p id=rec></p>
+			<a id="back" href="main.html"> << back to the main page</a>
+		</h3>
+		<p id="message"></p>
+	</div>
+
+	<div id="footer"></div>
+</body>
+</html>
+

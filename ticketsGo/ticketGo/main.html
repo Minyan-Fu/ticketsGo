@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>main page</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="validation.js" type="text/javascript"></script>
+<script src="result.js" type="text/javascript"></script>
+</head>
+
+<body id="body" onload="return rec();">
+	<div id="nav"></div>
+
+	<div id="header">
+		Tickets Go!!!<br>
+	</div>
+
+	<div id="intro">
+		<h2>Make a special invitation for your friend!</h2>
+	</div>
+
+	<div id="data">
+		<h3>
+			<form action="ticket.html" style="text-align: center">
+				<br />
+				<p>
+					<span><b>Choose one picture as your terminal city.</b><br>
+					</span>(if you don't know. <a href="terminal.html">test</a> here.)
+				</p>
+				<h5 id="message"></h5>
+				<hr />
+
+				<div class="slidershow left">
+					<div class="slides">
+						<input type="radio" name="city" id="Beijing" value="Beijing"
+							checked> <input type="radio" name="city" id="Chengdu"
+							value="Chengdu"> <input type="radio" name="city"
+							id="Guangzhou" value="Guangzhou"> <input type="radio"
+							name="city" id="Guilin" value="Guilin"> <input
+							type="radio" name="city" id="Hainan" value="Hainan"> <input
+							type="radio" name="city" id="Hangzhou" value="Hangzhou">
+						<input type="radio" name="city" id="Shanghai" value="Shanghai">
+						<input type="radio" name="city" id="tibet" value="tibet">
+						<input type="radio" name="city" id="Xian" value="Xian"> <input
+							type="radio" name="city" id="Xinjiang" value="Xinjiang">
+						<br />
+						<div class="slide s1">
+							<img src="Beijing.jpg" id="iBeijing"
+								title="pixabay, https://pixabay.com/photos/china-beijing-building-the-scenery-805587/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Beijing<br />北京
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Chengdu.jpg" id="iChengdu"
+								title="pixabay, https://pixabay.com/photos/anshun-bridge-chengdu-china-2627415/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Chengdu<br />成都
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Guangzhou.jpg" id="iGuangzhou"
+								title="pixabay,https://pixabay.com/photos/guangzhou-cbd-tower-2968173/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Guangzhou<br />广州
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Guilin.jpg" id="iGuilin"
+								title="pixabay, https://pixabay.com/photos/china-guilin-travel-asia-chinese-1180398/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Guilin<br />桂林
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Hainan.jpg" id="iHainan"
+								title="pixabay, https://pixabay.com/photos/sea-ship-blue-sky-white-cloud-2289653/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Hainan<br />海南
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Hangzhou.jpg" id="iHangzhou"
+								title="pixabay, https://pixabay.com/photos/west-lake-hangzhou-china-2181891/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Hangzhou<br />杭州
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Shanghai.jpg" id="iShanghai"
+								title="pixabay, https://pixabay.com/photos/oriental-pearl-tower-shanghai-city-415474/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Shanghai<br />上海
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="tibet.jpg" id="itibet"
+								title="pixabay, https://pixabay.com/photos/tibet-landscape-bergsee-nature-952689/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Tibet<br />西藏
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Xian.jpg" id="iXian"
+								title="pixabay, https://pixabay.com/photos/china-xi-an-the-bell-tower-building-2506476/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Xian<br />西安
+								</h1>
+							</div>
+						</div>
+						<div class="slide">
+							<img src="Xinjiang.jpg" id="iXinjiang"
+								title="pixabay, https://pixabay.com/photos/china-in-xinjiang-the-scenery-680715/,last access date 03.11.2019">
+							<div class="boxes">
+								<h1>
+									<br />Xinjiang<br />新疆
+								</h1>
+							</div>
+						</div>
+					</div>
+					<div class="navigation">
+						<label for="Beijing" class="bar"></label> <label for="Chengdu"
+							class="bar"></label> <label for="Guangzhou" class="bar"></label>
+						<label for="Guilin" class="bar"></label> <label for="Hainan"
+							class="bar"></label> <label for="Hangzhou" class="bar"></label> <label
+							for="Shanghai" class="bar"></label> <label for="tibet"
+							class="bar"></label> <label for="Xian" class="bar"></label> <label
+							for="Xinjiang" class="bar"></label>
+					</div>
+				</div>
+				<hr />
+				<table cellpadding=auto style="margin: auto; text-align: left">
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="passager"></td>
+					</tr>
+
+					<tr>
+						<td>Departure:</td>
+						<td><input type="text" name="departure"
+							placeholder="enter the depature city"></td>
+					</tr>
+
+					<tr>
+						<td>Date:</td>
+						<td><input id="date1" type="date" name="date1"></td>
+						<td>~</td>
+						<td><input id="date2" type="date" name="date2"></td>
+					</tr>
+				</table>
+				<hr />
+
+				<div style="text-align: center">
+					<input id="submit" type="submit" value="Submit"
+						onclick="return validation();">
+				</div>
+				<br />
+			</form>
+		</h3>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>
+

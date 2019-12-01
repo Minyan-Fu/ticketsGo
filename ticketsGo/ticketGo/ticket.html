@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ticket</title>
+<link rel="stylesheet" type="text/css" href="ticket.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="validation.js" type="text/javascript"></script>
+</head>
+
+<body id="body" onload="return printout2();">
+	<div id="nav"></div>
+
+	<div id="header">
+		Tickets Go!!!<br>
+	</div>
+
+	<div id="intro">
+		<h2>Press PrtScn and send the special ticket invitation!</h2>
+	</div>
+
+	<div id="data">
+		<div class="ticket">
+			<table id="firstline">
+				<tr>
+					<td>no.12312543643</td>
+					<td id="time"></td>
+				</tr>
+			</table>
+
+			<div id="passager">Name</div>
+			<br>
+
+			<div id="DtT">
+				<table>
+					<tr>
+						<td id="departure"></td>
+						<td>..........</td>
+						<td id="terminal"></td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="dates">
+				<p>
+					from: <span id="depDate">date</span> to: <span id="bacDate">date2</span>
+			</div>
+
+			<div id="pics">
+				<img id="picture" src=""></img>
+				<div id="intr">
+					<p id="intrtext">
+						$invitation<br>will you come with me?
+					</p>
+					<img id="qrcode" src="qrcode.png"></img>
+				</div>
+			</div>
+		</div>
+		<a id="back" href="main.html"> << back to the main page</a>
+	</div>
+
+	<div id="footer"></div>
+</body>
+</html>
+

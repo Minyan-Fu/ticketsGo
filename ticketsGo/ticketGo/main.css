@@ -1,0 +1,173 @@
+#nav {
+	background-color: #8785A2;
+	padding: 25px;
+	margin: auto;
+}
+
+#header {
+	background-color: #FFC7C7;
+	height: auto;
+	width: device-width;
+	padding: 5px;
+	text-align: center;
+	color: black;
+	font-family: Sans-serif;
+	font-size: 120px;
+	margin: auto;
+}
+
+#intro {
+	background-color: #FFE2E2;
+	height: auto;
+	width: device-width;
+	color: #8785A2;
+	padding: 5px;
+	text-align: center;
+	margin: auto;
+}
+
+#data {
+	background-color: #F6F6F6;
+	height: auto;
+	width: device-width;
+	padding: 5px;
+	margin: auto;
+	align: center;
+}
+
+#footer {
+	background-color: #8785A2;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	margin: auto;
+}
+
+p {
+	margin: auto;
+	font-size: 15px;
+}
+
+h5{
+	margin: auto;
+	font-size: 20px;
+	color:#8785A2;
+}
+
+span {
+	font-size: 25px;
+}
+
+h3 {
+	margin: auto;
+}
+
+.slidershow {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.left {
+	position: relative;
+	top: 0;
+}
+
+.navigation {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	right: 5%;
+	transform: tranlateX(-10%);
+	display: flex;
+}
+
+.bar {
+	width: 100px;
+	height: 10px;
+	border: 2px solid #FFFFFF;
+	margin: 6px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.bar:hover {
+	background: #FFFFFF;
+}
+
+.slides {
+	width: 1000%;
+	height: 100%;
+	display: flex;
+}
+
+.slide {
+	width: 10%;
+	transition: 0.6s;
+	background-color: #FFE2E2;
+}
+
+.slide img {
+	width: 50%;
+	height: 100%;
+}
+
+.slide boxes {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	vertical-align: center;
+}
+
+#Beijing:checked ~ .s1 {
+	margin-left: 0;
+}
+
+#Chengdu:checked ~ .s1 {
+	margin-left: -10%;
+}
+
+#Guangzhou:checked ~ .s1 {
+	margin-left: -20%;
+}
+
+#Guilin:checked ~ .s1 {
+	margin-left: -30%;
+}
+
+#Hainan:checked ~ .s1 {
+	margin-left: -40%;
+}
+
+#Hangzhou:checked ~ .s1 {
+	margin-left: -50%;
+}
+
+#Shanghai:checked ~ .s1 {
+	margin-left: -60%;
+}
+
+#tibet:checked ~ .s1 {
+	margin-left: -70%;
+}
+
+#Xian:checked ~ .s1 {
+	margin-left: -80%;
+}
+
+#Xinjiang:checked ~ .s1 {
+	margin-left: -90%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	display: block;
+	float: left
+}
+
+input[name="city"] {
+	position: absolute;
+	visibility: hidden;
+}
